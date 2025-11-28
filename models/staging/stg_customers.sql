@@ -12,6 +12,7 @@ renamed as (
 
         ----------  ids
         id as customer_id,
+        -- order_id, this row is commented out
 
         ---------- text
         name as customer_name
