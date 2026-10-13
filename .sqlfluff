@@ -38,3 +38,6 @@ capitalisation_policy = lower
 
 [sqlfluff:rules:ambiguous.column_references]  # Number in group by
 group_by_and_order_by_style = implicit
+
+[sqlfluff:rules:structure.subquery]
+forbid_subquery_in = both
